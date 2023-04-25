@@ -1,9 +1,9 @@
 ﻿using ControleDeMedicamentos.Compartilhados;
-using ControleDeMedicamentos.Funcionário;
-using ControleDeMedicamentos.Medicamento;
-using ControleDeMedicamentos.Paciente;
+using ControleDeMedicamentos.ModuloFuncionário;
+using ControleDeMedicamentos.ModuloMedicamento;
+using ControleDeMedicamentos.ModuloPaciente;
 
-namespace ControleDeMedicamentos.Requisicao
+namespace ControleDeMedicamentos.ModuloRequisicao
 {
     public class Requisicao : Entidade
     {

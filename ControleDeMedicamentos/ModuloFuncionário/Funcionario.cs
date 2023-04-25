@@ -1,5 +1,5 @@
 ﻿using ControleDeMedicamentos.Compartilhados;
-using ControleDeMedicamentos.Medicamento;
+using ControleDeMedicamentos.ModuloMedicamento;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-namespace ControleDeMedicamentos.Funcionário
+namespace ControleDeMedicamentos.ModuloFuncionário
 {
     public class Funcionario : Entidade
     {

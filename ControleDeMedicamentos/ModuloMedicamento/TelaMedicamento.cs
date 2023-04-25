@@ -1,8 +1,8 @@
 ﻿using ControleDeMedicamentos.Compartilhados;
-using ControleDeMedicamentos.Fornecedor;
+using ControleDeMedicamentos.ModuloFornecedor;
 using System.Collections;
 
-namespace ControleDeMedicamentos.Medicamento
+namespace ControleDeMedicamentos.ModuloMedicamento
 {
     public class TelaMedicamento : Tela
     {
@@ -15,6 +15,13 @@ namespace ControleDeMedicamentos.Medicamento
             while (true)
             {
                 Console.Clear();
+
+                Console.WriteLine("/ ----------------------- /");
+                Console.WriteLine("/ Cadastro de Medicamento /");
+                Console.WriteLine("/ ----------------------- /");
+
+                Console.WriteLine();
+
                 Console.WriteLine("(1) Criar Medicamento");
 
                 Console.WriteLine("(2) Editar Medicamento");

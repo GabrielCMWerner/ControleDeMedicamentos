@@ -1,7 +1,7 @@
 ﻿using ControleDeMedicamentos.Compartilhados;
 using System.Collections;
 
-namespace ControleDeMedicamentos.Paciente
+namespace ControleDeMedicamentos.ModuloPaciente
 {
     public class TelaPaciente : Tela
     {

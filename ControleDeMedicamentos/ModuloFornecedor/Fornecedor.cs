@@ -1,6 +1,6 @@
 ﻿using ControleDeMedicamentos.Compartilhados;
 
-namespace ControleDeMedicamentos.Fornecedor
+namespace ControleDeMedicamentos.ModuloFornecedor
 {
     public class Fornecedor : Entidade
     {

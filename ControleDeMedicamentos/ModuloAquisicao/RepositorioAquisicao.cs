@@ -1,6 +1,6 @@
 ﻿using ControleDeMedicamentos.Compartilhados;
 
-namespace ControleDeMedicamentos.Aquisicao
+namespace ControleDeMedicamentos.ModuloAquisicao
 {
     public class RepositorioAquisicao : Repositorio
     {

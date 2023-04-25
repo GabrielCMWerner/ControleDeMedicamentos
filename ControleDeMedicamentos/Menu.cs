@@ -1,9 +1,9 @@
-﻿using ControleDeMedicamentos.Aquisicao;
-using ControleDeMedicamentos.Fornecedor;
-using ControleDeMedicamentos.Funcionário;
-using ControleDeMedicamentos.Medicamento;
-using ControleDeMedicamentos.Paciente;
-using ControleDeMedicamentos.Requisicao;
+﻿using ControleDeMedicamentos.ModuloAquisicao;
+using ControleDeMedicamentos.ModuloFornecedor;
+using ControleDeMedicamentos.ModuloFuncionário;
+using ControleDeMedicamentos.ModuloMedicamento;
+using ControleDeMedicamentos.ModuloPaciente;
+using ControleDeMedicamentos.ModuloRequisicao;
 
 namespace ControleDeMedicamentos
 {

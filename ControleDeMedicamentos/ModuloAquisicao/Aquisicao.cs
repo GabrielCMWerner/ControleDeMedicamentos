@@ -1,9 +1,9 @@
 ﻿using ControleDeMedicamentos.Compartilhados;
-using ControleDeMedicamentos.Fornecedor;
-using ControleDeMedicamentos.Funcionário;
-using ControleDeMedicamentos.Medicamento;
+using ControleDeMedicamentos.ModuloFornecedor;
+using ControleDeMedicamentos.ModuloFuncionário;
+using ControleDeMedicamentos.ModuloMedicamento;
 
-namespace ControleDeMedicamentos.Aquisicao
+namespace ControleDeMedicamentos.ModuloAquisicao
 {
     public class Aquisicao : Entidade
     {

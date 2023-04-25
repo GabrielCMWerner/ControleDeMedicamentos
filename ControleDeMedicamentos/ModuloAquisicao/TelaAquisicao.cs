@@ -1,11 +1,10 @@
 ﻿using System.Collections;
 using ControleDeMedicamentos.Compartilhados;
-using ControleDeMedicamentos.Aquisicao;
-using ControleDeMedicamentos.Fornecedor;
-using ControleDeMedicamentos.Funcionário;
-using ControleDeMedicamentos.Medicamento;
+using ControleDeMedicamentos.ModuloFornecedor;
+using ControleDeMedicamentos.ModuloFuncionário;
+using ControleDeMedicamentos.ModuloMedicamento;
 
-namespace ControleDeMedicamentos.Aquisicao
+namespace ControleDeMedicamentos.ModuloAquisicao
 {
     public class TelaAquisicao : Tela
     {
@@ -20,6 +19,12 @@ namespace ControleDeMedicamentos.Aquisicao
             while (true)
             {
                 Console.Clear();
+
+                Console.WriteLine("/ --------------------- /");
+                Console.WriteLine("/ Cadastro de Aquisição /");
+                Console.WriteLine("/ --------------------- /");
+
+                Console.WriteLine();
 
                 Console.WriteLine("(1) Criar Aquisição");
 

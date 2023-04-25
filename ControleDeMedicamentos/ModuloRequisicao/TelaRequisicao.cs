@@ -1,10 +1,10 @@
 ﻿using ControleDeMedicamentos.Compartilhados;
-using ControleDeMedicamentos.Funcionário;
-using ControleDeMedicamentos.Medicamento;
-using ControleDeMedicamentos.Paciente;
+using ControleDeMedicamentos.ModuloFuncionário;
+using ControleDeMedicamentos.ModuloMedicamento;
+using ControleDeMedicamentos.ModuloPaciente;
 using System.Collections;
 
-namespace ControleDeMedicamentos.Requisicao
+namespace ControleDeMedicamentos.ModuloRequisicao
 {
     public class TelaRequisicao : Tela
     {
@@ -19,6 +19,13 @@ namespace ControleDeMedicamentos.Requisicao
             while (true)
             {
                 Console.Clear();
+
+                Console.WriteLine("/ ---------------------- /");
+                Console.WriteLine("/ Cadastro de Requisição /");
+                Console.WriteLine("/ ---------------------- /");
+
+                Console.WriteLine();
+
                 Console.WriteLine("(1) Criar Requisição");
 
                 Console.WriteLine("(2) Editar Requisição");

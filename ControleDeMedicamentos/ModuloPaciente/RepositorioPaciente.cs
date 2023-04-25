@@ -1,6 +1,6 @@
 ﻿using ControleDeMedicamentos.Compartilhados;
 
-namespace ControleDeMedicamentos.Paciente
+namespace ControleDeMedicamentos.ModuloPaciente
 {
     public class RepositorioPaciente : Repositorio
     {

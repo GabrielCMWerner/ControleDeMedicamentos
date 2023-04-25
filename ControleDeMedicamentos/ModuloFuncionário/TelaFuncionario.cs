@@ -1,7 +1,7 @@
 ﻿using ControleDeMedicamentos.Compartilhados;
 using System.Collections;
 
-namespace ControleDeMedicamentos.Funcionário
+namespace ControleDeMedicamentos.ModuloFuncionário
 {
     public class TelaFuncionario : Tela
     {
@@ -13,7 +13,13 @@ namespace ControleDeMedicamentos.Funcionário
             while (true)
             {
                 Console.Clear();
-               
+
+                Console.WriteLine("/ ----------------------- /");
+                Console.WriteLine("/ Cadastro de Funcionario /");
+                Console.WriteLine("/ ----------------------- /");
+
+                Console.WriteLine();
+
                 Console.WriteLine("(1) Criar Funcionario");
 
                 Console.WriteLine("(2) Editar Funcionario");

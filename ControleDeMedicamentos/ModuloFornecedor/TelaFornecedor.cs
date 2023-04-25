@@ -1,7 +1,7 @@
 ﻿using ControleDeMedicamentos.Compartilhados;
 using System.Collections;
 
-namespace ControleDeMedicamentos.Fornecedor
+namespace ControleDeMedicamentos.ModuloFornecedor
 {
     public class TelaFornecedor : Tela
     {
@@ -12,6 +12,13 @@ namespace ControleDeMedicamentos.Fornecedor
             while (true)
             {
                 Console.Clear();
+
+                Console.WriteLine("/ ---------------------- /");
+                Console.WriteLine("/ Cadastro de Fornecedor /");
+                Console.WriteLine("/ ---------------------- /");
+
+                Console.WriteLine();
+
                 Console.WriteLine("(1) Criar Fornecedor");
 
                 Console.WriteLine("(2) Editar Fornecedor");
